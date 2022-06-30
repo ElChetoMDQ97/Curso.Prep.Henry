@@ -10,6 +10,8 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  var A = Object.entries(objeto);
+  return A;
 }
 
 
@@ -18,6 +20,16 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  // ¡¡¡ .hasOwnProperty ===> cuando es un objeto //// .includes =====> cuando es un array !!!
+  var A = {};
+  for(var i = 0; i < string.length; i++){
+       if(A.hasOwnProperty(string[i])){
+       A[string[i]] = A[string[i]] + 1; 
+       } else{
+         A[string[i]] = 1;
+       }
+    }
+    return A;
 }
 
 
@@ -26,6 +38,14 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  var A = [];
+  for(var i = s.length; i >= 0; i--){
+    if(s[i] === s.toUpperCase([i])){
+      A.unshift[i];
+    } else{
+      A.push[i];
+    }
+  }
 }
 
 

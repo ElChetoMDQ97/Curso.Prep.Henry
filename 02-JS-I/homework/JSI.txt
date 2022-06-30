@@ -1,0 +1,11 @@
+Variable: Son los categorias que se le asignan a un valor dentro de la funcion, estre los mas usados estan: numbers (1, 2,3, numeros negativos, etc), strings, booleanos.
+
+Strings: Son letras, palabras o cadena de palabras.
+
+Funciones (argumentos, "return"): Son las encargadas de darle una oficio a las variables.
+Los argumentos son los valores agregados a la funcion.
+La declaracion return sirve para devolver un valor, siendo solo accesible a ese valor final y no a lo que hay dentro de la funcion.
+
+Declaraciones "if": Las declaraciones son las instrucciones de la funcion.
+
+Valores Booleanos ("true", "false"): Son valores de respuesta positiva o negativa, puede ser false y true, veradero y falso, 1 y 0, etc.
